@@ -1,5 +1,22 @@
-venv/
+# Python
 __pycache__/
 *.pyc
-.pytest_cache/
-.allure/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Allure
+allure-results/
+allure-report/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# GeckoDriver
+geckodriver.exe
